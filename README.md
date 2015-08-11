@@ -1,10 +1,8 @@
 # gin-pongo2
 
-## Getting Started
+## Usage
 
-how to use:
-
-#+BEGIN_SRC go
+~~~ go
 
 import p "github.com/easykoo/gin-pongo2"
 
@@ -16,7 +14,7 @@ import p "github.com/easykoo/gin-pongo2"
 	mData := make(map[string]interface{})
 	p.C(c).Pongo2(http.StatusOK, "share", mData)
 
-#+END_SRC
+~~~
 
 ##License
 
